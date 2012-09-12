@@ -8,6 +8,7 @@
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QImage>
+#include <QDir>
 
 class QOpenCVWidget : public QWidget {
     private:
@@ -20,6 +21,7 @@ class QOpenCVWidget : public QWidget {
         QOpenCVWidget(QWidget *parent = 0);
         ~QOpenCVWidget(void);
         void putImage(IplImage *);
+        void saveImage(QString path);
 }; 
 
 #endif

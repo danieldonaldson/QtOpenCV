@@ -65,3 +65,8 @@ void QOpenCVWidget::putImage(IplImage *cvimage) {
     imagelabel->setPixmap(QPixmap::fromImage(image));
 }
 
+void QOpenCVWidget::saveImage(QString filename) {
+
+    image.save(filename);
+}
+
