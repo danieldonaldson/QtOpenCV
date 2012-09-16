@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QGridLayout>
 #include <QCommandLinkButton>
-#include <QMessageBox>>
+#include <QMessageBox>
 #include "QOpenCVWidget.h"
 #include <opencv/cv.h>
 #include <opencv/highgui.h>

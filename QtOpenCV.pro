@@ -8,15 +8,14 @@ DEPENDPATH += .
 INCLUDEPATH += “/Users/daniel/opencv/include”
 LIBS += -L"/Users/daniel/opencv/lib/" -lopencv_core -lopencv_highgui -lopencv_imgproc
 
-SOURCES += main.cpp QOpenCVWidget.cpp MyCameraWindow.cpp \
-    OptionsDialog.cpp \
-    mainwindow.cpp
-HEADERS += MyCameraWindow.h \
+SOURCES += main.cpp QOpenCVWidget.cpp \
+    mainwindow.cpp \
+    options.cpp
+HEADERS += \
     QOpenCVWidget.h \
-    OptionsDialog.h \
-    mainwindow.h
+    mainwindow.h \
+    options.h
 
 FORMS += \
-    OptionsDialog.ui \
     mainwindow.ui
 
